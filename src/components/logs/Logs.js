@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import LogItem from './LogItem';
+import Preloader from '../layouts/Preloader';
 
 export const Logs = () => {
   const [logs, setLogs] = useState([]);
@@ -13,12 +14,11 @@ export const Logs = () => {
     setLoading(true);
     const res = await fetch('http://localhost:5000/logs');
     const data = await res.json();
-
     setLogs(data);
     setLoading(false);
   };
 
-  if (loading) return <h4>Loading...</h4>;
+  if (loading) return <Preloader />;
   return (
     <div>
       <ul className="collection with-header">
