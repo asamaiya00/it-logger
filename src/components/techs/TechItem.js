@@ -9,7 +9,7 @@ const TechItem = ({ tech }) => {
         <a href="#!" className="secondary-content">
           <i className="material-icons grey-test">delete</i>
         </a>
-      </div>
+      </div> 
     </li>
   );
 };

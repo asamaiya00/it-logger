@@ -6,7 +6,7 @@ const TechListModal = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    getTechs();
+    getTechs(); 
   }, []);
 
   const getTechs = async () => {
