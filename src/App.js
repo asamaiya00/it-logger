@@ -4,7 +4,7 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 import './App.css';
 
 import { SearchBar } from './components/layouts/SearchBar';
-import { Logs } from './components/logs/Logs';
+import Logs from './components/logs/Logs';
 import AddBtn from './components/layouts/AddBtn';
 import AddLogModal from './components/logs/AddLogModal';
 import EditLogModal from './components/logs/EditLogModal';
