@@ -9,17 +9,17 @@
     },
     {
       "id": 2,
-      "message": "Fixed hard drive on workstation 002",
-      "attention": false,
-      "tech": "John Doe",
-      "date": "2019-05-31T16:18:04.245Z"
+      "message": "hard drive crashed on workstation 002",
+      "tech": "Sara Wilson",
+      "attention": true,
+      "date": "2020-09-05T19:10:33.074Z"
     },
     {
-      "id": 3,
       "message": "1122 wireless down",
       "attention": true,
       "tech": "Sara Wilson",
-      "date": "2019-05-31T15:46:48.690Z"
+      "date": "2019-05-31T15:46:48.690Z",
+      "id": 3
     },
     {
       "id": 4,
