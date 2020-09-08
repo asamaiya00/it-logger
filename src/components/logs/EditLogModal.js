@@ -15,7 +15,7 @@ const EditLogModal = ({ current, updateLog }) => {
       setAttention(current.attention);
       setTech(current.tech);
     }
-  }, [current]);
+  }, []);
 
   const onSubmit = () => {
     if (message === '') {
@@ -33,6 +33,7 @@ const EditLogModal = ({ current, updateLog }) => {
       };
 
       updateLog(updLog);
+      M.toast({html:`updated by ${tech}`})
       setAttention(false);
       setTech('');
       setMessage('');
